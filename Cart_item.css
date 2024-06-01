@@ -1,0 +1,33 @@
+#options {
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 17px;
+	font-weight: 500;
+}
+.v-stack{
+	display: grid;
+	align-items: center;
+    align-content: center;
+}
+
+.popular-product-item{
+	display: flex;
+	align-items: center;
+}
+.popular-product-item-add-to-btn{
+	    padding: 8px !important;
+	
+}
+.quantity-selector--sm.popular-product-item-quantity {
+    --quantity-selector-height: 1.85rem !important;
+    --quantity-selector-input-width: 0.3rem !important;
+    margin-left: 8px !important;
+    border: 2px solid !important;
+}
+.shopify-product-form.popular-product-btn-form{
+	display: flex;
+    align-items: center;
+}
+.price-list.popular-product-price{
+	font-weight: 700 !important;
+}
