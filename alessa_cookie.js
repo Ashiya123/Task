@@ -33,7 +33,7 @@
         bodyEle.classList.add(testInfo.className);
 		
 		
-        waitForElement('.main-banner-text .elementor-heading-title').then((e) => {
+        waitForElement('body').then((e) => {
            if (!document.cookie.includes('previous_page_path') &&
 				window.location.pathname === '/software-solutions/aml-compliance/sanction-watchlist-screening/') {
 				document.cookie = 'previous_page_path=' + window.location.pathname + ';path=/';
