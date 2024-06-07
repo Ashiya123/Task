@@ -28,10 +28,7 @@
         });
     };
     const loadTest = () => {
-        const bodyEle = document.body;
-        if (bodyEle.classList.contains(testInfo.className)) { return }
-        bodyEle.classList.add(testInfo.className);
-		
+        const bodyEle = document.body;	
 		
         waitForElement('body').then((e) => {
            if (!document.cookie.includes('previous_page_path') &&
